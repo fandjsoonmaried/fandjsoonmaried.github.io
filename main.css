@@ -1,0 +1,88 @@
+body {
+    font-family: font73462, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+body, html {
+    margin: 0px;
+}
+
+#page-container {
+    width: 100%;
+    height: 3000px;
+    overflow-x: hidden;
+}
+
+#page-container #first-container {
+    display: block;
+    background: white;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    /*background-image: url(path/to/animated.gif);*/
+}
+
+#video {
+    top: -45px;
+    position: relative;
+}
+
+.hider {
+    width: 100%;
+    position: relative;
+    top: -91px;
+    height: 50px;
+    display: block;
+    background-color: white;
+}
+
+.shadow {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    height: 1px;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#main-title {
+    font-size: 78px;
+    font-style: italic;
+    font-weight: 200;
+    /*color: #144023;*/
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#page-container #second-container {
+
+}
+
+#page-container #third-container {
+
+}
+
+#page-container #fourth-container {
+
+}
+
+#fourth-container .bank-link {
+    font-size: 16px;
+}
+
+#helper {
+    position: fixed;
+    min-width: 100px;
+    min-height: 100px;
+    top: 0;
+    left: 0;
+    color: red;
+    font-size: 32px;
+}
+
+#helper p {
+    margin: 0;
+}

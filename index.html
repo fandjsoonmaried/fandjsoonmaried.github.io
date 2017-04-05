@@ -1,43 +1,52 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>François et Julie 2017</title>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-    body, h1 {
-        font-family: "Raleway", sans-serif
-    }
-
-    body, html {
-        height: 100%
-    }
-
-    .bgimg {
-        background-image: url('/w3images/forestbridge.jpg');
-        min-height: 100%;
-        background-position: center;
-        background-size: cover;
-    }
-</style>
-<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
-<script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<link href="https://www.fontify.me/wf/89c623d4619c9247cfd5a20cbc58e4ba" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="main.css">
+<script src="libs/jquery-3.2.0.min.js"></script>
+<script src="libs/moment.min.js"></script>
 <body>
 
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-    <div class="w3-display-topleft w3-padding-large w3-xlarge">
-        Logo
+<div id="page-container">
+
+
+    <div id="first-container">
+        <!-- src="https://www.youtube.com/embed/P5NTrstkBrU?loop=1&autoplay=1&controls=0&disablekb&fs=1&modestbranding=1&showinfo=0" -->
+        <div id="video" frameborder="0" width="640" height="360"></div>
+        <div class="hider"></div>
+        <div class="shadow"></div>
+        <h1 id="main-title">François et Julie</h1>
+        <p>First container - animation</p>
+        <p>Champ d'intro, de bienvenu par dessus</p>
+
     </div>
-    <div class="w3-display-middle">
-        <h1 class="w3-jumbo w3-animate-top">COMING SOON</h1>
-        <hr class="w3-border-grey" style="margin:auto;width:40%">
-        <p class="w3-large w3-center">35 days left</p>
+
+
+    <div id="second-container">
+        Second container - Informations
+        maps du lieu et info sur réservations. Lieux annexes pour la réservation (donner le message de réserver
+        rapidement)
+
     </div>
-    <div class="w3-display-bottomleft w3-padding-large">
-        Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+
+    <div id="third-container">
+        First container - Maps
     </div>
+
+    <div id="fourth-container">
+        intro du cadeau de mariage
+        Map monde avec avion qui va vers la NZ (avec texte explicatif et remerciements)
+        <a class="bank-link" href="#">Lien vers site bancaire</a>
+    </div>
+
+</div>
+<div id="helper">
+
 </div>
 
+<script src="main.js"></script>
+<script src="ythandler.js"></script>
 </body>
 </html>
